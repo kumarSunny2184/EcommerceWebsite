@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <link rel="stylesheet" href="../style/contact.css" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="header-container"></div>
+
+    <div class="container-fluid">
+      <div class="row">
+        <!-- Column 1: Business Image -->
+        <div class="col-md-6">
+          <img
+            src="../image/contact.png"
+            alt="Business Image"
+            class="business-image"
+            height="80%"
+            width="90%"
+          />
+        </div>
+        <!-- Column 2: Contact Form -->
+        <div class="col-md-6 contact-form">
+          <h1>Contact Us</h1>
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input
+                type="text"
+                class="form-control"
+                id="name"
+                placeholder="Enter your name"
+                required
+              />
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                placeholder="Enter your email"
+                required
+              />
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea
+                class="form-control"
+                id="message"
+                rows="4"
+                placeholder="Enter your message"
+                required
+              ></textarea>
+            </div>
+            <div class="d-grid gap-2">
+              <button class="btn btn-primary" type="button">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div id="footer"></div>
+
+    <script>
+      $(document).ready(function () {
+        $("#header-container").load("Header.html");
+        $("#footer").load("footer.html");
+      });
+    </script>
+  </body>
+</html>

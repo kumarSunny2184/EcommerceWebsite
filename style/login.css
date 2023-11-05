@@ -1,0 +1,36 @@
+body {
+  background: #000046; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #1cb5e0,
+    #000046
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #1cb5e0, #000046);
+}
+
+.container {
+  margin-top: 100px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+  transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Additional styles for responsiveness */
+@media (max-width: 576px) {
+  .col-md-6 {
+    width: 100%;
+  }
+}
+h1 {
+  color: yellow;
+}
+h1 {
+  color: white;
+}

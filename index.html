@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.6/umd/popper.min.js"
+      integrity="sha384-f4d9b5eb2f46bcb118d05b8c3e07c02b87a12939f5b5c7909c477c3d8f5b4eb5f6d0"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./style/home.css" />
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Home</title>
+  </head>
+  <body>
+    <div id="header-container"></div>
+    <div id="homeimage">
+      <img class="image" src="./image/homepage.png" alt="homeimage" />
+    </div>
+
+    <div class="container-fluid">
+      <div class="row justify-content-center align-items-center">
+        <div class="col-lg-12 text-center">
+          <div class="featured-products">
+            <h1>Featured Products</h1>
+            <!-- Add your carousel and card structure here -->
+            <div
+              id="featured-products"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="row">
+                    <!-- First Slide - Cards -->
+                    <div class="col-lg-3 col-md-6">
+                      <div class="card">
+                        <!-- Card content goes here -->
+                        <img
+                          src="https://images.unsplash.com/photo-1607345366928-199ea26cfe3e?auto=format&fit=crop&q=80&w=1887&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                          class="card-img-top"
+                          alt="Card1"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">formal Shirt</h5>
+                          <h6 class="card-price">$25</h6>
+                          <p class="card-text">
+                            This is a wider card with supporting text below as a
+                            natural lead-in to additional content. This content
+                            is a little bit longer.
+                          </p>
+                        </div>
+                        <div class="card-footer">
+                          <button type="button" class="btn btn-warning">
+                            <i class="fa-solid fa-cart-plus"></i>
+                            Add to cart
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                      <div class="card">
+                        <!-- Card content goes here -->
+                        <img
+                          src="https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?auto=format&fit=crop&q=60&w=600&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8c2hpcnR8ZW58MHx8MHx8fDA%3D"
+                          class="card-img-top"
+                          alt="Card1"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">T-Shirt</h5>
+                          <h6 class="card-price">$15</h6>
+                          <p class="card-text">
+                            This is a wider card with supporting text below as a
+                            natural lead-in to additional content. This content
+                            is a little bit longer.
+                          </p>
+                        </div>
+                        <div class="card-footer">
+                          <button type="button" class="btn btn-warning">
+                            <i class="fa-solid fa-cart-plus"></i>
+                            Add to cart
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                      <div class="card">
+                        <!-- Card content goes here -->
+                        <img
+                          src="https://images.unsplash.com/photo-1563389234808-52344934935c?auto=format&fit=crop&q=60&w=600&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzB8fHNoaXJ0fGVufDB8fDB8fHww"
+                          class="card-img-top"
+                          alt="Card1"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Causal Shirt</h5>
+                          <h6 class="card-price">$20</h6>
+                          <p class="card-text">
+                            This is a wider card with supporting text below as a
+                            natural lead-in to additional content. This content
+                            is a little bit longer.
+                          </p>
+                        </div>
+                        <div class="card-footer">
+                          <button type="button" class="btn btn-warning">
+                            <i class="fa-solid fa-cart-plus"></i>
+                            Add to cart
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                      <div class="card">
+                        <!-- Card content goes here -->
+                        <img
+                          src="https://images.unsplash.com/photo-1618001789196-8b986847cd5e?auto=format&fit=crop&q=60&w=600&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzV8fHNoaXJ0fGVufDB8fDB8fHww"
+                          class="card-img-top"
+                          alt="Card1"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Shirt</h5>
+                          <h6 class="card-price">$35</h6>
+                          <p class="card-text">
+                            This is a wider card with supporting text below as a
+                            natural lead-in to additional content. This content
+                            is a little bit longer.
+                          </p>
+                        </div>
+                        <div class="card-footer">
+                          <button type="button" class="btn btn-warning">
+                            <i class="fa-solid fa-cart-plus"></i>
+                            Add to cart
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row">
+                    <!-- Second Slide - Cards -->
+                    <div class="col-lg-3 col-md-6">
+                      <div class="card">
+                        <!-- Card content goes here -->
+                        <img
+                          src="https://img101.urbanic.com/v1/goods-pic/fe35ef6c470b46569c488e3ca28e0b21UR_w1440_q90.webp"
+                          class="card-img-top"
+                          alt="Card1"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Knot A-Line Dress</h5>
+                          <h6 class="card-price">$75</h6>
+                          <p class="card-text">
+                            This is a wider card with supporting text below as a
+                            natural lead-in to additional content. This content
+                            is a little bit longer.
+                          </p>
+                        </div>
+                        <div class="card-footer">
+                          <button type="button" class="btn btn-warning">
+                            <i class="fa-solid fa-cart-plus"></i>
+                            Add to cart
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                      <div class="card">
+                        <!-- Card content goes here -->
+                        <img
+                          src="https://rukminim2.flixcart.com/image/832/832/klcmoi80/dress/n/l/y/m-drs06-neu-look-original-imagyhtguw3r7raw.jpeg?q=70"
+                          class="card-img-top"
+                          alt="Card1"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Bodycon Black Dress</h5>
+                          <h6 class="card-price">$55</h6>
+                          <p class="card-text">
+                            This is a wider card with supporting text below as a
+                            natural lead-in to additional content. This content
+                            is a little bit longer.
+                          </p>
+                        </div>
+                        <div class="card-footer">
+                          <button type="button" class="btn btn-warning">
+                            <i class="fa-solid fa-cart-plus"></i>
+                            Add to cart
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                      <div class="card">
+                        <!-- Card content goes here -->
+                        <img
+                          src="https://img101.urbanic.com/v1/goods-pic/4be0451019f3464e8461a912dff1ba6bUR_w1440_q90.webp"
+                          class="card-img-top"
+                          alt="Card1"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Belted Shirt Dress</h5>
+                          <h6 class="card-price">$105</h6>
+                          <p class="card-text">
+                            This is a wider card with supporting text below as a
+                            natural lead-in to additional content. This content
+                            is a little bit longer.
+                          </p>
+                        </div>
+                        <div class="card-footer">
+                          <button type="button" class="btn btn-warning">
+                            <i class="fa-solid fa-cart-plus"></i>
+                            Add to cart
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                      <div class="card">
+                        <!-- Card content goes here -->
+                        <img
+                          src="https://images.mehar.xyz/product_thumbnail/1679381181-1a.webp"
+                          class="card-img-top"
+                          alt="Card1"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Rayon Wrap Mini Dress</h5>
+                          <h6 class="card-price">$75</h6>
+                          <p class="card-text">
+                            This is a wider card with supporting text below as a
+                            natural lead-in to additional content. This content
+                            is a little bit longer.
+                          </p>
+                        </div>
+                        <div class="card-footer">
+                          <button type="button" class="btn btn-warning">
+                            <i class="fa-solid fa-cart-plus"></i>
+                            Add to cart
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Add more cards for the second slide as needed -->
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row">
+                    <!-- Third Slide - Cards -->
+                    <div class="col-lg-3 col-md-6">
+                      <div class="card">
+                        <!-- Card content goes here -->
+                        <img
+                          src="https://fashiondream.co.in/cdn/shop/products/AK_1236copy.jpg?v=1663071589&width=990"
+                          class="card-img-top"
+                          alt="Card1"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Tabby Silk Maxi</h5>
+                          <h6 class="card-price">$45</h6>
+                          <p class="card-text">
+                            This is a wider card with supporting text below as a
+                            natural lead-in to additional content. This content
+                            is a little bit longer.
+                          </p>
+                        </div>
+                        <div class="card-footer">
+                          <button type="button" class="btn btn-warning">
+                            <i class="fa-solid fa-cart-plus"></i>
+                            Add to cart
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                      <div class="card">
+                        <!-- Card content goes here -->
+                        <img
+                          src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcT1TmEjXROCXp05IIsYhtOvdwgQ9GH3fH3O-aZqKIT1HxeQ1egZsX__jMq47PWhBwGTl3tn8Rt0M5NU89iwtWTu1OuLaHHJcjFsFUzprAE&usqp=CAE"
+                          class="card-img-top"
+                          alt="Card1"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Frock</h5>
+                          <h6 class="card-price">$85</h6>
+                          <p class="card-text">
+                            This is a wider card with supporting text below as a
+                            natural lead-in to additional content. This content
+                            is a little bit longer.
+                          </p>
+                        </div>
+                        <div class="card-footer">
+                          <button type="button" class="btn btn-warning">
+                            <i class="fa-solid fa-cart-plus"></i>
+                            Add to cart
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                      <div class="card">
+                        <!-- Card content goes here -->
+                        <img
+                          src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRPHhn9KH7Eg6Lsl50J3xuTPv90f3s8YibG75OKk7ySeSVUJuY51vzyV_tWRrt1n__z16JwLCAtlla4B53Xoaq-_VAsHMrRNPX_7qZPPqW3&usqp=CAE"
+                          class="card-img-top"
+                          alt="Card1"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Burgundy Dress</h5>
+                          <h6 class="card-price">$85</h6>
+                          <p class="card-text">
+                            This is a wider card with supporting text below as a
+                            natural lead-in to additional content. This content
+                            is a little bit longer.
+                          </p>
+                        </div>
+                        <div class="card-footer">
+                          <button type="button" class="btn btn-warning">
+                            <i class="fa-solid fa-cart-plus"></i>
+                            Add to cart
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                      <div class="card">
+                        <!-- Card content goes here -->
+                        <img
+                          src="https://babiesfrock.in/cdn/shop/products/image_5dbe7219-3994-423f-9985-6f2072282a48.jpg?v=1675062215&width=990"
+                          class="card-img-top"
+                          alt="Card1"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Yellow Layered Dress</h5>
+                          <h6 class="card-price">$105</h6>
+                          <p class="card-text">
+                            This is a wider card with supporting text below as a
+                            natural lead-in to additional content. This content
+                            is a little bit longer.
+                          </p>
+                        </div>
+                        <div class="card-footer">
+                          <button type="button" class="btn btn-warning">
+                            <i class="fa-solid fa-cart-plus"></i>
+                            Add to cart
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Add more cards for the third slide as needed -->
+                  </div>
+                </div>
+              </div>
+              <!-- Carousel Navigation Buttons -->
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#featured-products"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#featured-products"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="footer"></div>
+
+    <script>
+      $(document).ready(function () {
+        $("#header-container").load("./pages/header.html");
+        $("#footer").load("./pages/footer.html");
+      });
+    </script>
+  </body>
+</html>

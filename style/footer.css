@@ -1,0 +1,38 @@
+/* Footer Styles */
+.container-fluid.bg-dark {
+  background: #780206; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #061161,
+    #780206
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #061161, #780206);
+
+  color: #ffffff; /* Text color */
+  padding: 20px 0; /* Padding for the footer content */
+}
+
+.container-fluid.bg-dark h5 {
+  font-size: 1.2rem; /* Heading font size */
+  margin-bottom: 10px; /* Bottom margin for headings */
+}
+
+.container-fluid.bg-dark ul {
+  list-style: none; /* Remove default list styles */
+  padding: 0;
+}
+
+.container-fluid.bg-dark ul li {
+  margin-bottom: 8px; /* Bottom margin for list items */
+}
+
+.container-fluid.bg-dark ul li a.text-white {
+  color: #f0e9e9; /* Link text color */
+  text-decoration: none; /* Remove underline from links */
+  transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+.container-fluid.bg-dark ul li a.text-white:hover {
+  color: yellow !important; /* Link text color on hover */
+  text-decoration: none; /* Remove underline from links on hover */
+}

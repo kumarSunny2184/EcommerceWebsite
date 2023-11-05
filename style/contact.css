@@ -1,0 +1,55 @@
+/* Add this CSS to your stylesheet or in a <style> tag in the <head> section of your HTML file */
+body {
+  background: #000046; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #1cb5e0,
+    #000046
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #1cb5e0, #000046);
+}
+/* Business Image */
+.business-image {
+  width: 90%;
+  height: 70;
+  padding-top: 40px;
+  padding-left: 30px;
+}
+
+/* Contact Form Styles */
+.contact-form {
+  padding: 20px;
+}
+
+.contact-form h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.contact-form .form-control {
+  margin-bottom: 15px;
+}
+
+.contact-form button {
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #610ce8; /* Change to your desired hover color */
+}
+
+/* Optional: Add focus styles to form fields */
+.contact-form .form-control:focus {
+  border-color: #007bff; /* Change to your desired focus color */
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* Change to your desired focus box-shadow */
+}
+h1:hover {
+  color: yellow;
+}
+h1 {
+  color: white;
+}
+.form-label {
+  color: white;
+}

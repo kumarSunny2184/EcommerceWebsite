@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- In the head section of your HTML file -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../style/header.css" />
+    <title>Home</title>
+  </head>
+
+  <body>
+    <div class="container-fluid header">
+      <div class="row align-items-center">
+        <div class="col-md-4">
+          <div class="logo-brand-container">
+            <img
+              class="logo"
+              height="60px"
+              width="100px"
+              src="../image/logo.png"
+              alt="Logo"
+            />
+            <!-- Logo -->
+            <a class="navbar-brand" href="../index.html">
+              <h4>SQUARE<span>SPACE</span></h4>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <!-- Search Box -->
+          <div class="input-group">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button
+              class="btn btn-outline-secondary"
+              type="button"
+              id="button-addon2"
+            >
+              Search
+            </button>
+          </div>
+        </div>
+        <div class="col-md-4 text-end">
+          <!-- Login and Cart Buttons -->
+          <a href="../pages/login.html" class="btn btn-primary"> Login </a>
+          <i class="fas fa-shopping-cart"></i>
+        </div>
+      </div>
+    </div>
+    <div class="text-center">
+      <ul class="nav nav-pills justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link light" aria-current="page" href="../index.html"
+            >Home</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link light" href="../pages/allProduct.html"
+            >All Products</a
+          >
+        </li>
+        <br />
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            data-bs-toggle="dropdown"
+            href="#"
+            role="button"
+            aria-expanded="false"
+            >Women</a
+          >
+          <ul class="dropdown-menu">
+            <li>
+              <a class="dropdown-item" href="../pages/allproductwomen.html"
+                >All Products</a
+              >
+            </li>
+            <li>
+              <a class="dropdown-item" href="../pages/dresses.html">Dresses</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="../pages/pants.html">Pants</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="../pages/skirts.html">Skirts</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            data-bs-toggle="dropdown"
+            href="#"
+            role="button"
+            aria-expanded="false"
+            >Men</a
+          >
+          <ul class="dropdown-menu">
+            <li>
+              <a class="dropdown-item" href="../pages/allproductmen.html"
+                >All Products</a
+              >
+            </li>
+            <li>
+              <a class="dropdown-item" href="../pages/shirt.html">Shirts</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="../pages/pant.html">Pants</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="../pages/hoodies.html">Hoodies</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../pages/kid.html">Kids</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link light" href="../pages/contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Bootstrap JS and Font Awesome JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

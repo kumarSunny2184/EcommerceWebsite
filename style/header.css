@@ -1,0 +1,133 @@
+/* Header styles */
+.header {
+  background: #780206; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #061161,
+    #780206
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #061161,
+    #780206
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  color: #ffffff; /* Text color */
+  padding: 10px 0; /* Top and bottom padding */
+}
+
+/* Button styles */
+.btn-primary,
+.btn-outline-secondary {
+  transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+}
+
+/* Hover effect for primary button */
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+  color: #ffffff;
+}
+
+/* Hover effect for outline secondary button */
+.btn-outline-secondary:hover {
+  background-color: #ffffff;
+  border-color: #0056b3;
+  color: #0056b3;
+}
+
+/* Cart icon styles */
+.fa-shopping-cart {
+  color: #ffffff;
+  font-size: 24px;
+  transition: color 0.3s;
+  padding-right: 40px;
+  padding-left: 10px;
+}
+
+.fa-shopping-cart:hover {
+  color: #f8d204;
+}
+
+/* Hover effect for navbar-brand */
+.navbar-brand:hover {
+  color: #f8d204;
+}
+
+/* Navigation Menu Styles */
+.text-center {
+  background: #780206; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #061161,
+    #780206
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #061161,
+    #780206
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  margin-bottom: 10px;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-pills .nav-link {
+  color: white;
+}
+
+.nav-pills .nav-link:hover {
+  color: #e7e70d;
+}
+
+.nav-pills .nav-link.active {
+  color: blue;
+  font-weight: bold;
+}
+
+.dropdown-menu .dropdown-item a {
+  color: white;
+}
+
+.dropdown-menu .dropdown-item:hover {
+  background-color: #c5c512;
+}
+
+/* Additional Styling for Dropdown Toggle Arrow */
+.nav-pills .nav-link.dropdown-toggle::after {
+  display: inline-block;
+  margin-left: 0.255em;
+  vertical-align: 0.255em;
+  content: "";
+  border-top: 0.3em solid;
+  border-right: 0.3em solid transparent;
+  border-bottom: 0;
+  border-left: 0.3em solid transparent;
+}
+
+/* Align the dropdown menu to the left */
+.dropdown-menu {
+  left: 0;
+}
+
+/* Active State for Dropdown Items */
+.dropdown-menu .dropdown-item.active {
+  background-color: #007bff;
+  color: #ffffff;
+}
+
+/* Padding for the menu items */
+.nav-link {
+  padding: 0.5rem 1rem;
+}
+.logo-brand-container {
+  display: flex;
+  align-items: center;
+}
+.logo-brand-container img {
+  padding-right: 10px;
+}
+span {
+  color: white;
+}

@@ -1,0 +1,65 @@
+/* Custom styles for the carousel */
+
+body {
+  background: #000046; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #1cb5e0,
+    #000046
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #1cb5e0,
+    #000046
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#carouselExampleDark {
+  max-width: 800px; /* Set the maximum width for the carousel */
+  margin: 0 auto; /* Center the carousel */
+}
+
+.carousel-inner {
+  border-radius: 10px; /* Optional: Add border-radius to the carousel inner content */
+}
+
+.carousel-item img {
+  border-radius: 10px; /* Optional: Add border-radius to the carousel images */
+  height: 400px;
+  object-fit: contain; /* Ensure the images cover the entire carousel item */
+}
+
+.carousel-caption {
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.4
+  ); /* Set a semi-transparent background for the captions */
+  border-radius: 10px; /* Optional: Add border-radius to the captions */
+  padding: 10px; /* Add some padding to the captions */
+  text-align: center; /* Center the text in the captions */
+}
+h2 {
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+h1 {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+h1:hover {
+  color: yellow;
+}
+h2:hover {
+  color: yellow;
+}
+
+p {
+  color: white;
+}
+h1 {
+  color: white;
+}
