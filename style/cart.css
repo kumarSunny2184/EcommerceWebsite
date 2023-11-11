@@ -1,0 +1,111 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.cart-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin: 0px;
+}
+
+.items-grid {
+  flex-grow: 1;
+}
+
+.item {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+/* Rest of your existing CSS remains unchanged */
+
+.item img {
+  max-width: 100%;
+  height: auto;
+}
+
+.item-details {
+  text-align: left;
+  padding-left: 50px;
+}
+h3 {
+  text-align: right;
+}
+
+.header-title {
+  text-align: center;
+}
+.delete-btn {
+  cursor: pointer;
+  color: red;
+}
+
+.quantity-form {
+  display: flex;
+  gap: 10px; /* Adjust the gap value as needed for the desired space */
+}
+
+.quantity-form {
+  display: flex;
+  align-items: center;
+}
+
+.quantity-icons {
+  cursor: pointer;
+  font-size: 14px; /* Adjust the size as needed */
+  background-color: yellow;
+  font-size: 40px;
+  color: #007bff;
+}
+
+.summary-card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-right: 20px;
+  width: 800px;
+}
+
+.btn {
+  display: block; /* Ensures the button takes full width */
+  margin: 0 auto; /* Centers the button horizontally */
+  /* OR */
+  /* text-align: right; */ /* Aligns the button to the right */
+}
+
+.summary-header {
+  font-weight: bold;
+  text-align: center;
+}
+
+.summary-line {
+  border-top: 1px solid #ddd;
+  margin: 10px 0;
+}
+/* Media Queries for Medium Screens */
+@media (min-width: 768px) {
+  .cart-container {
+    flex-direction: row;
+  }
+
+  .items-grid {
+    flex-basis: 60%;
+  }
+
+  .summary-card {
+    width: 30%;
+  }
+}
+
+/* Media Queries for Large Screens */
+@media (min-width: 1200px) {
+  .cart-container {
+    gap: 20px;
+  }
+}
